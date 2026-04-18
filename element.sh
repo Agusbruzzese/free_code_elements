@@ -1,5 +1,4 @@
 #!/bin/bash
-#Este programa se usa para mostrar los elementos
 PSQL="psql -X --username=freecodecamp --dbname=periodic_table --no-align --tuples-only -c"
 
 if [[ -z $1 ]]
